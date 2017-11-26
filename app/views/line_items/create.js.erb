@@ -1,4 +1,6 @@
-if ($('#cart tr').length == 1) { $('#cart').show('blind', 1000); }
+$('#notice').hide();
+
+if ($('#cart tr').length == 1) { $('#cart').show(); }
 
 $('#cart').html("<%=j render(@cart) %>");
 
