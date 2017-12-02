@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class ProductTest < ActiveSupport::TestCase
+class ProductTest < ActionDispatch::IntegrationTest
   
   test "product attributes must not be empty" do
     product = Product.new
